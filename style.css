@@ -1,0 +1,64 @@
+.navigation {
+  text-align: center;
+  background-color: #f4f5f6;
+  box-shadow: .2rem 0 .5rem rgba(0,0,0,.2);
+  padding: 1rem 0;
+}
+
+.navigation-item {
+  margin: 0 .5rem;
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+  color: #606c76;
+  line-height: inherit;
+}
+
+.post-card {
+  border-left: .5rem solid #9b4dca;
+  box-shadow: 0 0 1rem .5rem rgba(0,0,0,.1);
+  padding: 1rem 2rem;
+  margin-bottom: 2.5rem;
+  background-color: #f9f9f9;
+}
+
+.post-tag {
+  border-left: 0.2rem solid #9b4dca;
+  border-radius: .3rem;
+  color: #9b4dca;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 .1rem;
+}
+
+.footer {
+  text-align:center;
+  padding: 2rem;
+}
+
+/* UTILS */
+.big-margin-top {
+  margin-top: 5rem;
+}
+
+/* RESET OF SCROLLBAR */
+::-webkit-scrollbar {
+  width: .5rem;
+  height: .5rem; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d3d3d3; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9a9a9a; }
