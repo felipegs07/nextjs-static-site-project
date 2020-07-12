@@ -1,4 +1,4 @@
-const Post = () => {
+const PostCard = () => {
   return (
     <article className="post-card">
       <h4>
@@ -17,4 +17,4 @@ const Post = () => {
   )
 }
 
-export default Post;
+export default PostCard;

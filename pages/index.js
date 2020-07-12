@@ -1,14 +1,23 @@
 import info from '../config';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 import PostList from '../components/PostList';
+import getAllPosts from '../utils/getAllPosts';
 
 const Index = () => (
   <>
-    <Header/>
+    <Layout>
       <PostList />
-    <Footer />
+    </Layout>
   </>
 );
 
 export default Index;
+
+export async function getStaticProps() {
+  const test = getAllPosts('_posts');
+  console.log('test', test);
+
+  return {
+    props: {}
+  }
+}
